@@ -1,0 +1,63 @@
+/* Header styles */
+.header {
+  background-color: var(--background-color);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Logo styles */
+.header-logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* Controls container */
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Mode toggle button */
+.mode-toggle {
+  background: none;
+  border: none;
+  color: var(--accent-color);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.mode-toggle:hover {
+  opacity: 0.8;
+}
+
+/* User profile circle */
+.user-profile {
+  width: 32px;
+  height: 32px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--background-color);
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.user-profile:hover {
+  opacity: 0.8;
+} 
